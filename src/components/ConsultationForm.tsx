@@ -36,9 +36,24 @@ export default function ConsultationForm() {
         <h2 className="text-3xl md:text-5xl font-bold text-blue-950 mb-3 leading-tight">
           Получите бесплатную<br />консультацию
         </h2>
-        <p className="text-blue-700 mb-10 text-base">
+        <p className="text-blue-700 mb-6 text-base">
           Оставьте заявку — мы свяжемся с вами в течение рабочего дня
         </p>
+        <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 mb-10 text-sm text-blue-800">
+          <div className="flex flex-col gap-1">
+            <span className="uppercase text-xs tracking-widest text-blue-400">Телефоны</span>
+            <a href="tel:88452377747" className="hover:text-blue-600 transition-colors">8-8452-37-77-47</a>
+            <a href="tel:+79061530308" className="hover:text-blue-600 transition-colors">+7-906-153-03-08</a>
+          </div>
+          <div className="flex flex-col gap-1">
+            <span className="uppercase text-xs tracking-widest text-blue-400">Email</span>
+            <a href="mailto:88452377747@bk.ru" className="hover:text-blue-600 transition-colors">88452377747@bk.ru</a>
+          </div>
+          <div className="flex flex-col gap-1">
+            <span className="uppercase text-xs tracking-widest text-blue-400">Адрес</span>
+            <span>г. Саратов, ул. Большая Казачья,<br />д.59/65, оф.3</span>
+          </div>
+        </div>
 
         {status === "success" ? (
           <div className="border border-blue-200 p-10 text-center">
