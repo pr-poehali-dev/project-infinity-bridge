@@ -19,6 +19,7 @@ export default function Footer() {
                   "Защита прав потребителей",
                   "Трудовое право",
                   "Иные гражданские споры",
+                  "Административные споры",
                 ].map((s) => (
                   <a key={s} href="#services" className="text-white hover:text-blue-300 transition-colors duration-300 text-sm sm:text-base">
                     {s}

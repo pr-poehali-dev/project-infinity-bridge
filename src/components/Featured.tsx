@@ -23,6 +23,7 @@ export default function Featured() {
             "Защита прав потребителей",
             "Трудовое право",
             "Иные гражданские споры",
+            "Административные споры",
           ].map((service) => (
             <div key={service} className="flex items-center gap-3">
               <span className="w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0" />
