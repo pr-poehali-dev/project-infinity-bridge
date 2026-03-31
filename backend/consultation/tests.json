@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "OPTIONS preflight",
+      "method": "OPTIONS",
+      "path": "/",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Submit consultation",
+      "method": "POST",
+      "path": "/",
+      "body": {"name": "Иван Иванов", "phone": "+7 999 123 45 67", "message": "Нужна консультация по договору"},
+      "expectedStatus": 200
+    },
+    {
+      "name": "Missing fields",
+      "method": "POST",
+      "path": "/",
+      "body": {"name": "", "phone": ""},
+      "expectedStatus": 400
+    }
+  ]
+}
