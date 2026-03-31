@@ -53,9 +53,9 @@ export default function Footer() {
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
               <h1 className="text-[7vw] sm:text-[6vw] lg:text-[5vw] leading-[1.1] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight uppercase">
-                На страже<br />Ваших прав
+                Морозов<br />и Партнеры
               </h1>
-              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} На Страже Ваших Прав</p>
+              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} Морозов и Партнеры</p>
             </div>
           </div>
         </div>
