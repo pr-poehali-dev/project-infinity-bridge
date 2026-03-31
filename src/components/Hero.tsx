@@ -28,8 +28,8 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/40 z-[1]" />
       <div className="relative z-10 text-center text-white px-6">
         <p className="text-xs md:text-sm uppercase tracking-widest mb-4 opacity-70">На страже Ваших прав</p>
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-none">
-          ЗАЩИТА<br />ВАШЕГО ПРАВА
+        <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 leading-tight">
+          ЮРИДИЧЕСКАЯ КОМПАНИЯ<br />НА СТРАЖЕ ВАШИХ ПРАВ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-10">
           Профессиональные юридические услуги для бизнеса и частных лиц. Опыт, результат, надёжность.
