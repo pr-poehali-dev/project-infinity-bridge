@@ -25,7 +25,7 @@ export default function Hero() {
         />
       </motion.div>
 
-      <div className="absolute inset-0 bg-black/40 z-[1]" />
+      <div className="absolute inset-0 bg-blue-900/80 z-[1]" />
       <div className="relative z-10 text-center text-white px-6">
         <p className="text-xs md:text-sm uppercase tracking-widest mb-4 opacity-70">На страже Ваших прав</p>
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 leading-tight">
@@ -36,7 +36,7 @@ export default function Hero() {
         </p>
         <a
           href="#contact"
-          className="inline-block border border-white text-white px-8 py-3 uppercase text-sm tracking-widest hover:bg-white hover:text-black transition-all duration-300"
+          className="inline-block border border-white text-white px-8 py-3 uppercase text-sm tracking-widest hover:bg-white hover:text-blue-900 transition-all duration-300"
         >
           Получить консультацию
         </a>
