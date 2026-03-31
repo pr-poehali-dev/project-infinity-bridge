@@ -10,24 +10,20 @@ export default function Footer() {
             <div className="flex shrink-0 gap-8 sm:gap-12 lg:gap-20 flex-wrap">
               <div className="flex flex-col gap-1 sm:gap-2">
                 <h3 className="mb-1 sm:mb-2 uppercase text-blue-300 text-xs sm:text-sm">Услуги</h3>
-                <a
-                  href="#services"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Корпоративное право
-                </a>
-                <a
-                  href="#services"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Арбитраж
-                </a>
-                <a
-                  href="#services"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Недвижимость
-                </a>
+                {[
+                  "Банкротство физических и юридических лиц",
+                  "Семейное право",
+                  "Земельное право",
+                  "Корпоративное право",
+                  "Защита прав должников",
+                  "Защита прав потребителей",
+                  "Трудовое право",
+                  "Иные гражданские споры",
+                ].map((s) => (
+                  <a key={s} href="#services" className="text-white hover:text-blue-300 transition-colors duration-300 text-sm sm:text-base">
+                    {s}
+                  </a>
+                ))}
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
                 <h3 className="mb-1 sm:mb-2 uppercase text-blue-300 text-xs sm:text-sm">Контакты</h3>
