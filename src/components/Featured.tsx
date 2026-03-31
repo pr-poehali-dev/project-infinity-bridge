@@ -9,29 +9,29 @@ export default function Featured() {
         />
       </div>
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
-        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600" id="services">Почему выбирают нас</h3>
-        <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
+        <h3 className="uppercase mb-4 text-sm tracking-wide text-blue-500" id="services">Почему выбирают нас</h3>
+        <p className="text-2xl lg:text-4xl mb-8 text-blue-950 leading-tight">
           Более 15 лет на рынке. Сотни выигранных дел и довольных клиентов — от предпринимателей до крупного бизнеса. Мы решаем задачи, от которых другие отказываются.
         </p>
-        <div className="flex flex-col gap-3 mb-8 text-neutral-700 text-base">
+        <div className="flex flex-col gap-3 mb-8 text-blue-800 text-base">
           <div className="flex items-center gap-3">
-            <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 shrink-0" />
+            <span className="w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0" />
             Корпоративное и договорное право
           </div>
           <div className="flex items-center gap-3">
-            <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 shrink-0" />
+            <span className="w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0" />
             Арбитраж и судебная защита
           </div>
           <div className="flex items-center gap-3">
-            <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 shrink-0" />
+            <span className="w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0" />
             Недвижимость и сделки с имуществом
           </div>
           <div className="flex items-center gap-3">
-            <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 shrink-0" />
+            <span className="w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0" />
             Защита интересов физических лиц
           </div>
         </div>
-        <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
+        <button className="bg-blue-700 text-white border border-blue-700 px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-blue-700 cursor-pointer w-fit uppercase tracking-wide">
           Записаться на консультацию
         </button>
       </div>
