@@ -18,8 +18,8 @@ export default function Promo() {
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
         <motion.div style={{ y }} className="relative w-full h-full">
           <img
-            src="/images/spiral-circles.jpg"
-            alt="Abstract spiral circles"
+            src="https://cdn.poehali.dev/projects/88cbbde4-8bf8-4bed-a24a-44e23111287b/files/69aac081-5153-40e0-89b7-4608d3853063.jpg"
+            alt="Фемида — богиня правосудия"
             className="w-full h-full object-cover"
           />
         </motion.div>
